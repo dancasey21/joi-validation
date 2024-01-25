@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/joi-browser@13.4.0/dist/joi-browser.min.js"></script>
+    <script type="module" src="joi.js"></script>
+  </head>
+
+  <body>
+    <form action="" method="get" id="form">
+      <div>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" />
+        <p id="firstNameErr" class="firstName err"></p>
+      </div>
+      <div>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" />
+        <p id="lastNameErr" class="lastName err"></p>
+      </div>
+      <div>
+        <label for="town">Town</label>
+        <input type="text" name="town" id="town" />
+        <p id="townErr" class="town err"></p>
+      </div>
+      <div>
+        <label for="postcode">Postcode</label>
+        <input type="text" name="postCode" id="postcode" />
+        <p id="postCodeErr" class="postCode err"></p>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <p id="emailErr" class="email err"></p>
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" />
+        <p id="ageErr" class="age err"></p>
+      </div>
+
+      <div>
+        <label for="jobDesc">Job Description</label>
+        <input type="text" name="jobDesc" id="jobDesc" />
+        <p id="jobDescErr" class="jobDesc err"></p>
+      </div>
+
+      <div>
+        <button id="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
